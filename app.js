@@ -19,6 +19,11 @@ app.get("/lovelace", (req,res)=>res.sendFile(path.join(__dirname,"/DH-Heroes/vie
 
 app.get("/turing", (req,res)=>res.sendFile(path.join(__dirname,"/DH-Heroes/views/turing.html")));
 
+//mios
+app.get("/Proyectos", (req,res)=>res.sendFile(path.join(__dirname,"/DH-Heroes/views/misProyectos.html")));
+app.get("/Contacto", (req,res)=>res.sendFile(path.join(__dirname,"/DH-Heroes/views/contacto.html")));
+app.get("/Redes", (req,res)=>res.sendFile(path.join(__dirname,"/DH-Heroes/views/redes.html")));
+
 
 
 app.use(express.static(path.join(__dirname, 'DH-Heroes')));
