@@ -1,0 +1,111 @@
+#navhom ul{
+    list-style-type: none;
+    text-align: center;
+ } 
+ #navhom li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navhom h1 {
+     text-align: center;
+     border: grey 2px solid;
+     box-shadow: 10px 10px 10px grey;
+
+ } 
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background1");
+    background-size: cover;
+    mix-blend-mode: darken;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: white 8px groove;
+    box-shadow: 10px 10px 10px grey;
+}
+#wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+    
+}
+header nav a {
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 12px;
+    font-weight:lighter;
+    text-decoration: none;
+    height: 100px;
+    
+}
+header nav a:hover{
+    text-decoration: underline;
+    box-shadow: 10px 10px 10px hotpink;
+}
+
+header .logo{
+float: left;
+width: 100px;
+height: auto;
+}
+header div img{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.babbage img{
+    width: 100px;
+    height: 140px;
+    display: inline;
+}
+.babbage .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+    display: inline-flex;
+
+}
+.babbage .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.babbage .card img{
+    width: 330px;
+    height: 220px;
+}
+.babbage .card h4{
+    margin-top: 300px;
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+    display: block;
+   
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+  
+}
